@@ -8,6 +8,10 @@ package org.lakers.reflect;
 public class TargetObject {
     private String value;
 
+    public TargetObject(String value) {
+        this.value = value;
+    }
+
     public TargetObject() {
         value = "JavaGuide";
     }
